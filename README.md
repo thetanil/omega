@@ -8,4 +8,13 @@ title: Omega
 zig toys
 [doc/html](doc/html)
 
-obsidian://open?vault=omega&file=doc%2Fhtml[[]]
+## what is the thing?
+
+zig build a raylib canvas with imgui overlay
+make it work in gtk window or browser wasm
+
+https://ziglang.org/
+
+https://ziglang.org/learn/build-system/#getting-started
+
+https://github.com/thetanil/omega
