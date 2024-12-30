@@ -4,7 +4,7 @@ title: Omega
 ---
 # omega
 [[this_is_a_note]]
-[this_is_a_note](this_is_a_note.md)
+[this_is_a_note](doc/this_is_a_note)
 zig toys
 [doc/html](doc/html)
 
