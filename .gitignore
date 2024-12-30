@@ -1,3 +1,5 @@
 .obsidian/
 .zig-cache/
 zig-out/
+main.wasm.o
+main.wasm

@@ -1,4 +1,17 @@
-# this ain't it
+<!doctype html>
+<html lang="en">
 
-don't do it
-
+<head>
+    <title>WebAssembly test</title>
+</head>
+<script type="module">
+    const result = await WebAssembly.instantiateStreaming(fetch('main.wasm'), {
+        env: { print: (x) => console.log(x) },
+    });
+    const add = result.instance.exports.add;
+    add(1, 2);
+</script>
+
+<body></body>
+
+</html>
